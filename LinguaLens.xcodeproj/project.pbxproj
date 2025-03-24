@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DAAC0A52D909B9300DC3DCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DAAC0A42D909B9300DC3DCF /* GoogleService-Info.plist */; };
+		5DAAC0A82D90A10000DC3DCF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5DAAC0A72D90A10000DC3DCF /* FirebaseAuth */; };
+		5DAAC0AA2D90A10000DC3DCF /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 5DAAC0A92D90A10000DC3DCF /* FirebaseAuthCombine-Community */; };
+		5DAAC0AC2D90A10000DC3DCF /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5DAAC0AB2D90A10000DC3DCF /* FirebaseCore */; };
+		5DDAC7E12D90C458002FB232 /* PhotoOCRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDAC7E02D90C458002FB232 /* PhotoOCRView.swift */; };
+		5DDAC7F62D90C883002FB232 /* TranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDAC7F52D90C883002FB232 /* TranslateView.swift */; };
+		5DDAC7F82D90C8CB002FB232 /* RestaurantInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDAC7F72D90C8CB002FB232 /* RestaurantInfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DAAC0772D9091F700DC3DCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAAC05C2D9091F500DC3DCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAAC0632D9091F500DC3DCF;
+			remoteInfo = LinguaLens;
+		};
+		5DAAC0812D9091F700DC3DCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAAC05C2D9091F500DC3DCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAAC0632D9091F500DC3DCF;
+			remoteInfo = LinguaLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DAAC0642D9091F500DC3DCF /* LinguaLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinguaLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAAC0762D9091F700DC3DCF /* LinguaLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinguaLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAAC0802D9091F700DC3DCF /* LinguaLensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinguaLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAAC0A42D909B9300DC3DCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5DDAC7E02D90C458002FB232 /* PhotoOCRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoOCRView.swift; sourceTree = "<group>"; };
+		5DDAC7F52D90C883002FB232 /* TranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateView.swift; sourceTree = "<group>"; };
+		5DDAC7F72D90C8CB002FB232 /* RestaurantInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5DAAC0662D9091F500DC3DCF /* LinguaLens */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LinguaLens;
+			sourceTree = "<group>";
+		};
+		5DAAC0792D9091F700DC3DCF /* LinguaLensTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LinguaLensTests;
+			sourceTree = "<group>";
+		};
+		5DAAC0832D9091F700DC3DCF /* LinguaLensUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LinguaLensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DAAC0612D9091F500DC3DCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAAC0A82D90A10000DC3DCF /* FirebaseAuth in Frameworks */,
+				5DAAC0AC2D90A10000DC3DCF /* FirebaseCore in Frameworks */,
+				5DAAC0AA2D90A10000DC3DCF /* FirebaseAuthCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAAC0732D9091F700DC3DCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAAC07D2D9091F700DC3DCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DAAC05B2D9091F500DC3DCF = {
+			isa = PBXGroup;
+			children = (
+				5DDAC7F52D90C883002FB232 /* TranslateView.swift */,
+				5DDAC7F72D90C8CB002FB232 /* RestaurantInfoView.swift */,
+				5DDAC7E02D90C458002FB232 /* PhotoOCRView.swift */,
+				5DAAC0A42D909B9300DC3DCF /* GoogleService-Info.plist */,
+				5DAAC0662D9091F500DC3DCF /* LinguaLens */,
+				5DAAC0792D9091F700DC3DCF /* LinguaLensTests */,
+				5DAAC0832D9091F700DC3DCF /* LinguaLensUITests */,
+				5DAAC0652D9091F500DC3DCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DAAC0652D9091F500DC3DCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAAC0642D9091F500DC3DCF /* LinguaLens.app */,
+				5DAAC0762D9091F700DC3DCF /* LinguaLensTests.xctest */,
+				5DAAC0802D9091F700DC3DCF /* LinguaLensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DAAC0632D9091F500DC3DCF /* LinguaLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAAC08A2D9091F700DC3DCF /* Build configuration list for PBXNativeTarget "LinguaLens" */;
+			buildPhases = (
+				5DAAC0602D9091F500DC3DCF /* Sources */,
+				5DAAC0612D9091F500DC3DCF /* Frameworks */,
+				5DAAC0622D9091F500DC3DCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5DAAC0662D9091F500DC3DCF /* LinguaLens */,
+			);
+			name = LinguaLens;
+			packageProductDependencies = (
+				5DAAC0A72D90A10000DC3DCF /* FirebaseAuth */,
+				5DAAC0A92D90A10000DC3DCF /* FirebaseAuthCombine-Community */,
+				5DAAC0AB2D90A10000DC3DCF /* FirebaseCore */,
+			);
+			productName = LinguaLens;
+			productReference = 5DAAC0642D9091F500DC3DCF /* LinguaLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DAAC0752D9091F700DC3DCF /* LinguaLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAAC08D2D9091F700DC3DCF /* Build configuration list for PBXNativeTarget "LinguaLensTests" */;
+			buildPhases = (
+				5DAAC0722D9091F700DC3DCF /* Sources */,
+				5DAAC0732D9091F700DC3DCF /* Frameworks */,
+				5DAAC0742D9091F700DC3DCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAAC0782D9091F700DC3DCF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5DAAC0792D9091F700DC3DCF /* LinguaLensTests */,
+			);
+			name = LinguaLensTests;
+			packageProductDependencies = (
+			);
+			productName = LinguaLensTests;
+			productReference = 5DAAC0762D9091F700DC3DCF /* LinguaLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DAAC07F2D9091F700DC3DCF /* LinguaLensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAAC0902D9091F700DC3DCF /* Build configuration list for PBXNativeTarget "LinguaLensUITests" */;
+			buildPhases = (
+				5DAAC07C2D9091F700DC3DCF /* Sources */,
+				5DAAC07D2D9091F700DC3DCF /* Frameworks */,
+				5DAAC07E2D9091F700DC3DCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAAC0822D9091F700DC3DCF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5DAAC0832D9091F700DC3DCF /* LinguaLensUITests */,
+			);
+			name = LinguaLensUITests;
+			packageProductDependencies = (
+			);
+			productName = LinguaLensUITests;
+			productReference = 5DAAC0802D9091F700DC3DCF /* LinguaLensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DAAC05C2D9091F500DC3DCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5DAAC0632D9091F500DC3DCF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5DAAC0752D9091F700DC3DCF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5DAAC0632D9091F500DC3DCF;
+					};
+					5DAAC07F2D9091F700DC3DCF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5DAAC0632D9091F500DC3DCF;
+					};
+				};
+			};
+			buildConfigurationList = 5DAAC05F2D9091F500DC3DCF /* Build configuration list for PBXProject "LinguaLens" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DAAC05B2D9091F500DC3DCF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5DAAC0A62D90A10000DC3DCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5DAAC0652D9091F500DC3DCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DAAC0632D9091F500DC3DCF /* LinguaLens */,
+				5DAAC0752D9091F700DC3DCF /* LinguaLensTests */,
+				5DAAC07F2D9091F700DC3DCF /* LinguaLensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DAAC0622D9091F500DC3DCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAAC0A52D909B9300DC3DCF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAAC0742D9091F700DC3DCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAAC07E2D9091F700DC3DCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DAAC0602D9091F500DC3DCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDAC7E12D90C458002FB232 /* PhotoOCRView.swift in Sources */,
+				5DDAC7F82D90C8CB002FB232 /* RestaurantInfoView.swift in Sources */,
+				5DDAC7F62D90C883002FB232 /* TranslateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAAC0722D9091F700DC3DCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAAC07C2D9091F700DC3DCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DAAC0782D9091F700DC3DCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAAC0632D9091F500DC3DCF /* LinguaLens */;
+			targetProxy = 5DAAC0772D9091F700DC3DCF /* PBXContainerItemProxy */;
+		};
+		5DAAC0822D9091F700DC3DCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAAC0632D9091F500DC3DCF /* LinguaLens */;
+			targetProxy = 5DAAC0812D9091F700DC3DCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DAAC0882D9091F700DC3DCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DAAC0892D9091F700DC3DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DAAC08B2D9091F700DC3DCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinguaLens/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MR2493467;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingualens.LinguaLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DAAC08C2D9091F700DC3DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinguaLens/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MR2493467;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingualens.LinguaLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DAAC08E2D9091F700DC3DCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MR2493467;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingualens.LinguaLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinguaLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinguaLens";
+			};
+			name = Debug;
+		};
+		5DAAC08F2D9091F700DC3DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MR2493467;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingualens.LinguaLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinguaLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinguaLens";
+			};
+			name = Release;
+		};
+		5DAAC0912D9091F700DC3DCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MR2493467;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingualens.LinguaLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinguaLens;
+			};
+			name = Debug;
+		};
+		5DAAC0922D9091F700DC3DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MR2493467;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingualens.LinguaLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinguaLens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DAAC05F2D9091F500DC3DCF /* Build configuration list for PBXProject "LinguaLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAAC0882D9091F700DC3DCF /* Debug */,
+				5DAAC0892D9091F700DC3DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAAC08A2D9091F700DC3DCF /* Build configuration list for PBXNativeTarget "LinguaLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAAC08B2D9091F700DC3DCF /* Debug */,
+				5DAAC08C2D9091F700DC3DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAAC08D2D9091F700DC3DCF /* Build configuration list for PBXNativeTarget "LinguaLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAAC08E2D9091F700DC3DCF /* Debug */,
+				5DAAC08F2D9091F700DC3DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAAC0902D9091F700DC3DCF /* Build configuration list for PBXNativeTarget "LinguaLensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAAC0912D9091F700DC3DCF /* Debug */,
+				5DAAC0922D9091F700DC3DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DAAC0A62D90A10000DC3DCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DAAC0A72D90A10000DC3DCF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DAAC0A62D90A10000DC3DCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5DAAC0A92D90A10000DC3DCF /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DAAC0A62D90A10000DC3DCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		5DAAC0AB2D90A10000DC3DCF /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DAAC0A62D90A10000DC3DCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5DAAC05C2D9091F500DC3DCF /* Project object */;
+}
