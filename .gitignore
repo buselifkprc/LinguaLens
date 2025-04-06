@@ -1,1 +1,5 @@
 *.xcuserstate
+.DS_Store
+Mobil/.DS_Store
+Mobil/LinguaLens/.DS_Store
+.git/.DS_Store
